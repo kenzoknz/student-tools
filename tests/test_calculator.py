@@ -11,9 +11,6 @@ def test_fahrenheit_to_celsius():
     assert fahrenheit_to_celsius(32) == 0
     assert fahrenheit_to_celsius(212) == 100
 
-
-
-
 # --- Trường hợp hợp lệ ---
 def test_add():
     assert add(2, 3) == 5
