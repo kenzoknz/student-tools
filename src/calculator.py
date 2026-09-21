@@ -35,3 +35,13 @@ def divide(a, b):
     if b == 0:
         raise ValueError("Cannot divide by zero")
     return a / b
+
+
+def divide1(a, b,c):
+    _validate_number(a)
+    _validate_number(b)
+    if b == 0:
+        raise ValueError("Cannot divide by zero")
+    if c == 0:
+            raise ValueError("Cannot divide by zero")
+    return a / b
