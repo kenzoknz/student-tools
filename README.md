@@ -14,3 +14,5 @@ celsius = fahrenheit_to_celsius(77)      # 25.0
 ```
 
 See [docs/usage.md](docs/usage.md) for setup and usage details.
+
+Temperature inputs can be checked with `validate_temperature` before conversion.
